@@ -14,3 +14,6 @@ To run the program, atleast on windows, open up the terminal, enter the command 
 The main strength that Python has when it comes to text processing is that its syntax lends itself to its ease of use. Its weaknesses are its has limitations. For example, the PorterStemmer() tends to take off parts of the root word because it thinks it is part of the suffix. While Lemmatizer() tends to fix this problem, it has a longer runtime compared to the stemmer.
 
 What I learned about python is how simple it is to execute many actions with the language. To get specific indexes, you can just simply type "list[si:ei]" to get the specific elements you need to see, rather than in Python you make a for loop to access those indexes. I also got review some python basics such as how to use loops and if statements in Python.
+
+## Assignment 2
+I experimented with nltk [here](Assignment2.pdf).
