@@ -17,3 +17,6 @@ What I learned about python is how simple it is to execute many actions with the
 
 ## Assignment 2
 I experimented with nltk [here](Assignment2.pdf).
+
+## Assignment 3
+I implemented a word guessing game, more commonly known as [hangman](hangman.py).
