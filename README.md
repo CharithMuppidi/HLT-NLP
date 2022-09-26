@@ -20,3 +20,7 @@ I experimented with nltk [here](Exploring_NLTK.ipynb).
 
 ## Assignment 3
 I implemented a word guessing game, more commonly known as [hangman](hangman.py).
+
+## Assignment 4
+I got to experiment with [WordNet](Wordnet.ipynb).
+
