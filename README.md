@@ -24,3 +24,6 @@ I implemented a word guessing game, more commonly known as [hangman](hangman.py)
 ## Assignment 4: WordNet
 I got to experiment with [WordNet](Wordnet.ipynb).
 
+## Assignment 5: Ngrams
+I, along with a partner, made 2 progams and a narrative. In [program 1](Program1.py), we created bigram and unigram dictionaries for English, French, and Italian. In [program 2](Program2.py), we compute the probabilities for each language. For a refresher on Ngrams, please refer to our [narrative](NgramProjectNarrative.docx).
+
