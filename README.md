@@ -29,3 +29,6 @@ I, along with a partner, made 2 progams and a narrative. In [program 1](Program1
 
 ## Assignment 6: Finding or Building a Corpus
 I, along with a partner, made a [program](corpus.py) to create a knowledge base for a [future chatbot](CS_4395_Webcrawler_Report.docx).
+
+## Assignment 7: Syntax Parsing
+I experimented with [syntax parsing](Syntax_Parsing.pdf).
