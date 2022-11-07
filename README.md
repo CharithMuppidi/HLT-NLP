@@ -32,3 +32,6 @@ I, along with a partner, made a [program](corpus.py) to create a knowledge base 
 
 ## Assignment 7: Syntax Parsing
 I experimented with [syntax parsing](Syntax_Parsing.pdf).
+
+## Assignment 8: Author Attribution
+We used Machine Learning and the Scikit-learn library on the federalist papers to attribute(AuthorAttribution.ipynb) who wrote each essay.
