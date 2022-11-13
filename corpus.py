@@ -99,8 +99,8 @@ def important_terms(list_pages):
     top = dict(itertools.islice(tf_dict.items(), 40))
     print("Top 40")
     [print(k, ":", v) for k, v in top.items()]
-    top = dict(itertools.islice(tf_dict.items(), 10))
-    return top
+    #top = dict(itertools.islice(tf_dict.items(), 10))
+    #return top
 
 
 def knowledge_base(list_pages, words):
@@ -110,7 +110,7 @@ def knowledge_base(list_pages, words):
         for j in list_pages:
             with open(j, 'r', encoding="utf-8") as fp:
                 text = fp.read()
-            text = re.sub('[\n\t]+', ' ', text)
+            text = re.sub("[\n\t]+", ' ', text)
             sentences = nltk.sent_tokenize(text)
             [sent_list.append(s) for s in sentences if i in s]
         kb[i] = sent_list
@@ -121,10 +121,10 @@ if __name__ == '__main__':
     list_one = crawl(start_url, 'inflation')
     list_two = scrape(list_one)
     list_three = clean(list_two)
-    dict_one = important_terms(list_three)
-    dict_kb = knowledge_base(list_three, dict_one.keys())
+    important_terms(list_three)
+    kbterms = ['inflation','price','money','economy','monetary','currency','growth','demand','supply','interest']
+    dict_kb = knowledge_base(list_three, kbterms)
     print("Knowledge Base")
-    print(dict_one.keys())
     print(dict(itertools.islice(dict_kb.items(), 1)))
     with open('kb.pickle', 'wb') as file:
         pickle.dump(dict_kb, file)
