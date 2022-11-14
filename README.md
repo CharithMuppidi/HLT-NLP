@@ -35,3 +35,6 @@ I experimented with [syntax parsing](Syntax_Parsing.pdf).
 
 ## Assignment 8: Author Attribution
 We used Machine Learning and the Scikit-learn library on the federalist papers to [attribute](AuthorAttribution.ipynb) who wrote each essay.
+
+## Assignment 9: ACL Paper Summary
+My partner and I [summarized](ACL_Paper_Summary.docx) a paper on the Language Specific Sub-network (LaSS) method of multilingual machine translation. 
