@@ -1,5 +1,5 @@
 # HLT-NLP
-This is a portfolio for CS 4395 - Human Language Technologies.
+This is a portfolio for CS 4395 - Human Language Technologies. Though the class is referred to as 'Human Language Technologies', a more fitting name would be Natural Language Processing.
 
 ## Assignment 0: Getting Started
 
