@@ -38,3 +38,6 @@ We used Machine Learning and the Scikit-learn library on the federalist papers t
 
 ## Assignment 9: ACL Paper Summary
 My partner and I [summarized](ACL_Paper_Summary.docx) a paper on the Language Specific Sub-network (LaSS) method of multilingual machine translation. 
+
+## Assignment 10: Chatbot Project
+My partner and I made a [chatbot](InflationBot.py) using the [webcrawling program](corpus.py) from assignment 6. It uses [neural_networks](neural_network.py) to train on our [knowledge base](intents.json). Our design philosophy and evaluation of its performance can be found in our [report](Chatbot_Project_Report.pdf), along with instructions on how to run it.
